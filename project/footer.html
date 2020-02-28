@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" charset="UTF-8">
+    <link rel="stylesheet" href="css/line-awesome.css">   
+    <link rel="stylesheet" href="css/comm.css">
+    <link rel="stylesheet" href="css/footer.css"> 
+    <style>
+        #service_online>a{
+            display:inline-block;
+            width: 120px;
+            height: 40px;
+            margin:0px;
+            border: 1px solid #000000;
+            text-align:center;
+            line-height: 40px;
+						transition:color 0.5s;
+        }
+				#service_online>a:hover{
+				color:white;
+				}
+        @keyframes show{
+           from{background: white;color:black;width:0px;}
+            to{background: #000000;color: white;width:120px;}
+        }
+
+				#service_online{
+/*					 display:inline-block;*/
+            width: 0px;
+            height: 40px;
+            margin-left:55px;
+/*            border: 1px solid #000000;*/
+            text-align:center; 
+            line-height: 40px;
+						z-index:-1;
+				}
+      #service_online:hover{
+           animation: show 0.5s ease 1 normal ;
+           animation-fill-mode: forwards;
+					 								
+        }
+      .la-weixin,.la-weibo,.la-phone-volume{font-size: 2rem;}
+    </style>
+</head>
+<body>
+   <div class="footer">
+       <div class="footer_top">
+           <ul class="d-flex">
+               <li><a href="">
+                   <p class="footer-top-icon">7</p>
+                   <span>7天无理由</span>
+               </a></li>
+               <li><a href="">
+                   <p class="footer-top-icon">15</p>
+                   <span>15天退货保障</span>
+               </a></li>
+               <li><a href="">
+                   <p class="footer-top-icon">30</p>
+                   <span>30天换货保障</span>
+               </a></li>
+               <li><a href="">
+                   <p class="footer-top-icon">365</p>
+                   <span>一年保修</span>
+               </a></li>
+           </ul>
+       </div>
+       <div class="footer_center d-flex" >
+           <div class="foot_center_left w-70">
+                <ul class="d-flex">
+                    <li><a href="">一加产品</a>
+                        <ul >
+                            <li><a class="footer_center_link" href="">OnePlus 7T Pro</a></li>
+                            <li><a class="footer_center_link" href="">OnePlus 7T </a></li>
+                            <li><a class="footer_center_link" href="">OnePlus 7 Pro</a></li>
+                            <li><a class="footer_center_link" href="">OnePlus 7</a></li>
+                            <li><a class="footer_center_link" href="">OnePlus 6T</a></li>
+                            <li><a class="footer_center_link" href="">OnePlus 6</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">热门活动</a>
+                        <ul>
+                            <li><a class="footer_center_link" href="">推荐有礼</a></li>
+                            <li><a class="footer_center_link" href="">以旧换新</a></li>
+                            <li><a class="footer_center_link" href="">Shot on OnePlus</a></li>
+                            <li><a class="footer_center_link" href="">邀请码购买</a></li>
+                            <li><a class="footer_center_link" href="">教育优惠</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">关于一加</a>
+                        <ul>
+                            <li><a class="footer_center_link" href="">了解一加</a></li>
+                            <li><a class="footer_center_link" href="">加入一加</a></li>
+                            <li><a class="footer_center_link" href="">H2OS</a></li>
+                            <li><a class="footer_center_link" href="">云服务</a></li>
+                            <li><a class="footer_center_link" href="">预置应用公示</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="">服务支持</a>
+                        <ul>
+                            <li><a class="footer_center_link" href="">购买帮助</a></li>
+                            <li><a class="footer_center_link" href="">用户手册</a></li>
+                            <li><a class="footer_center_link" href="">寄修服务</a></li>
+                            <li><a class="footer_center_link" href="">服务中心</a></li>
+                            <li><a class="footer_center_link" href="">联系我们</a></li>
+                        </ul>
+                    </li>
+                </ul>
+           </div>
+           <div class="footer_center_right" style="text-align: right">
+             <p>
+                <i class="la la-phone-volume"></i>
+               400-888-111
+             </p>
+<!--                     <table></table> -->
+									<div id="service_online">
+									 <a href="">在线客服</a>
+									</div>                    
+                  <p>周一至周日 9:00 - 22:00</p>
+                 <!-- <div class="dropdown">
+										<a>
+										    <i class="la la-weixin"></i>
+										    <img class="wechat-code w-20" src="img/store/erweima.jpg" alt=""/>
+										</a>
+										<a href=""><i class="la la-weibo"></i></a>
+									</div>-->
+									<div class="dropdown">
+											<a href=""><i class="la la-weixin"></i></a>
+											<a href=""><i class="la la-weibo"></i></a>
+								
+											<div class="dropdown-content">
+												<img class="w-100" src="img/store/erweima.jpg" alt="">
+											</div>
+									</div>
+                  
+                  
+           <!--
+               <li class="wechat">
+                 <a href="">点击显示</a>
+                 <div class="wechat-code"><img src="img/store/erweima.jpg" alt=""/></div>
+               </li>
+               <li></li>
+             </ul> -->
+           </div>
+       </div>
+       <div class="footer_bottom">
+         <ul class="d-flex">
+           <li><span class="footer_bottom_link">&copy;2013-2019 OnePlus.All Rights Reserved.</span></li>
+           <li>
+             <ul class="d-flex">
+               <li class="footer_bottom_item"><a class="footer_bottom_link" href="">隐私政策</a>|</li>
+               <li class="footer_bottom_item"><a class="footer_bottom_link" href="">用户协议</a>|</li>
+               <li class="footer_bottom_item"><a class="footer_bottom_link" href="">竞赛规则</a>|</li>
+               <li class="footer_bottom_item"><a class="footer_bottom_link" href="">知识产权政策</a>|</li>
+               <li class="footer_bottom_item"><a class="footer_bottom_link" href="">安全问题反馈</a>|</li>
+               <li class="footer_bottom_item"><a class="footer_bottom_link" href="">站点地图</a></li>
+             </ul>
+           </li>
+         </ul>
+       </div>
+   </div>
+</body>
+</html>
